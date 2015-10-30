@@ -1,0 +1,149 @@
+body {
+  font-family: arial,sans-serif;
+  font-size: small;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+#header_un {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+#header_deux {
+  float: right;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.bloc {
+  display: inline-block;
+}
+
+.header_a {
+  padding-right: 15px;
+}
+
+#options {
+  cursor: default;
+  vertical-align: middle;
+}
+
+#connexion {
+  color: #fff;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  text-decoration: none;
+  cursor: default;
+}
+
+#bloc_centre {
+  text-align: center;
+  margin-top: 89px;
+}
+
+#bloc_barre {
+  margin-left: auto;
+  margin-right: auto;
+  height: 38px;
+  width: 584px;
+  border: 1px solid #f2f2f2;
+
+}
+
+#bloc_barre:hover {
+  border: 1px solid #c6c6c6;
+}
+
+#micro {
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+#barre {
+  height: 26px;
+  width: 525px;
+  border: none;
+  outline: none;
+  padding: 6px 9px 0;
+}
+
+#boutons {
+  padding-top: 18px;
+}
+
+.input {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #757575;
+  cursor: default;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+
+
+}
+
+.input[type="submit"]:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+.langue {
+  display: inline-block;
+}
+
+#deutsch {
+  color: #12c;
+  text-decoration: none;
+}
+
+#footer {
+  position: absolute; 
+  bottom: 0; left: 0; right: 0;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+
+}
+
+.footer_a {
+  float: left;
+}
+
+.footer_ab {
+  padding-left: 27px;
+  line-height: 40px;
+
+}
+
+#footer_c {
+  float: right;
+}
+
+.footer_ac {
+  padding-right: 27px;
+  line-height: 40px;
+}
+
